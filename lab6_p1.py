@@ -23,7 +23,6 @@ class Team:
 
         return final_str
 
-
     def read_file(self):
         save_file = open(self.file, 'r')
         team_list = []
